@@ -2,16 +2,16 @@ details {
   user-select: none;
 }
 
-/*details>summary span.icon {
+details>summary  {
   width: 24px;
   height: 24px;
   transition: all 0.3s;
   margin-left: auto;
-}*/
+}
 
-/*details[open] summary span.icon {
+details[open] summary {
   transform: rotate(180deg);
-}*/
+}
 
 summary {
   display: flex;
