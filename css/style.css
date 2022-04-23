@@ -1,21 +1,26 @@
-details {
-  user-select: none;
+.list-group-item .card-header {
+  padding: 10px !important;
 }
 
-details>summary {
-  width: 120px;
-  height: 24px;
-  transition: all 0.3s;
-  margin-left: 0;
-  margin-right: 0;
+.container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 0px 20px;
 }
 
-
-summary {
-  display: flex;
-  cursor: pointer;
+#Tsukasa{
+  background-color: #FFBB00;
+}
+#Saki{
+  background-color: #FFDD44;
+}
+#Emu{
+  background-color: #FF66BB;
+}
+#Nene{
+  background-color: #33DD99;
 }
 
-summary::-webkit-details-marker {
-  display: none;
+#Rui{
+  background-color: #BB88EE;
 }
