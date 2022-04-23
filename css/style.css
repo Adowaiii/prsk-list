@@ -2,16 +2,14 @@ details {
   user-select: none;
 }
 
-details>summary  {
-  width: 24px;
+details>summary {
+  width: 120px;
   height: 24px;
   transition: all 0.3s;
-  margin-left: auto;
+  margin-left: 0;
+  margin-right: 0;
 }
 
-details[open] summary {
-  transform: rotate(180deg);
-}
 
 summary {
   display: flex;
